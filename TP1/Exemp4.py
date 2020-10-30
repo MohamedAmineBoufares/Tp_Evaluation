@@ -59,8 +59,8 @@ print(Xn,"\n",teta) # affichage de Xn barre et téta
 
 """
 
-plt.plot(n,teta,color="red",label="Moyenne empérique") # dessinier téta en focntion de n avec la couleur Rouge
-plt.plot(n,Xn,color="green",label="Variance empérique") # dessinier Xn barre en fonction de n avec la couleur Vert
+plt.plot(n,teta,color="red",label="Variance empérique") # dessinier téta en focntion de n avec la couleur Rouge
+plt.plot(n,Xn,color="green",label="Moyenne empérique") # dessinier Xn barre en fonction de n avec la couleur Vert
 plt.xlabel("Nombre d'echantillon")
 plt.ylabel("Variables aléatoires")
 plt.title("Courbe de la moyenne empérique et la variance empérique")

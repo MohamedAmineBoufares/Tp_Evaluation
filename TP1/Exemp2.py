@@ -43,7 +43,7 @@ def var_emp(a,xn_): # fonction qui calcule la variance empérique
 """
 
 n=[10,100,1000,10000] # differents valeurs des n : nombre des echantillons
-lamda=5 # différentes valeurs de lamda
+lamda=2 # différentes valeurs de lamda
 teta=[] # intialisation d'un tableau qui va stocker les differentes valeurs de téta
 Xn=[] # intialiation d'un tableau qui va contenir les différentes valeurs de Xn
 
@@ -58,8 +58,8 @@ print(Xn,"\n",teta) # affichage de Xn barre et téta
 
 """
 
-plt.plot(n,teta,color="red",label="Moyenne empérique") # dessinier téta en focntion de n avec la couleur Rouge
-plt.plot(n,Xn,color="green",label="Variance empérique") # dessinier Xn barre en fonction de n avec la couleur Vert
+plt.plot(n,teta,color="red",label="Variance empérique") # dessinier téta en focntion de n avec la couleur Rouge
+plt.plot(n,Xn,color="green",label="Moyenne empérique") # dessinier Xn barre en fonction de n avec la couleur Vert
 plt.xlabel("Nombre d'echantillon")
 plt.ylabel("Variables aléatoires")
 plt.title("Courbe de la moyenne empérique et la variance empérique")
