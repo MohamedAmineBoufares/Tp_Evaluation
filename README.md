@@ -29,7 +29,7 @@ La lecture graphique permet aussi de repérer les intervalles en abscisse sur le
 une primitive d’une fonction  f est une fonction F dont f est la dérivée : F'=f. Il s’agit donc d’un antécédent pour l’opération de dérivation.
 
 La détermination d’une primitive sert d’abord au calcul des intégrales de fonctions continues sur un segment, en application du théorème fondamental de l'analyse.:
-f(x)dx=F(b)-F(a)
+![](https://latex.codecogs.com/gif.latex?f%28x%29%20dx%20%3D%20F%28b%29-F%28a%29)
 photo de dérivé
  
  ## 5.Etude de dérivé:
@@ -101,5 +101,6 @@ r=b-a f(a+b/2)
 Cette aire est aussi celle du trapèze de base [a,b] et dont le côté opposé est tangent au graphe de f en  c= (a+b)/2 ce qui explique sa relative bonne précision.
 
 taswira 
-$$V.A = \frac {b-a}n \sum\limits _{k=0}^{n-1} f(t_k) $$
+
+![test](https://latex.codecogs.com/gif.latex?V.A%20%3D%20%5Cfrac%20%7Bb-a%7Dn%20%5Csum%5Climits%20_%7Bk%3D0%7D%5E%7Bn-1%7D%20f%28t_k%29)
 
